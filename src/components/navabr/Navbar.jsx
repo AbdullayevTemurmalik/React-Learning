@@ -7,12 +7,12 @@ const Navbar = () => {
   return (
     <header className="navbar">
       <div className="container">
-        <h1 className="logo">Moon</h1>
+        <h1 className="logo">MiniShop</h1>
 
         <nav className={open ? "nav-links open" : "nav-links"}>
           <a href="#home">Home</a>
-          <a href="#shop">Shop</a>
           <a href="#about">About</a>
+          <a href="#products">Products</a>
           <a href="#contact">Contact</a>
         </nav>
 

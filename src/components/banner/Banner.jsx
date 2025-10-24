@@ -3,10 +3,10 @@ import "./Banner.css";
 
 const Banner = () => {
   return (
-    <section className="banner">
+    <section className="banner" id="home">
       <div className="banner-content">
-        <h1>Welcome to Moon Store</h1>
-        <p>Discover modern and elegant products that match your style.</p>
+        <h1>Welcome to MiniShop</h1>
+        <p>Your favorite place to find stylish and modern products!</p>
         <button>Shop Now</button>
       </div>
     </section>

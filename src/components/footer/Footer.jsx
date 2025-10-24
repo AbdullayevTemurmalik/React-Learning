@@ -1,11 +1,11 @@
 import React from "react";
-import "./Footer.css"
+import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div>
-      <h1>Footer</h1>
-    </div>
+    <footer className="footer" id="contact">
+      <p>© 2025 MiniShop — All rights reserved</p>
+    </footer>
   );
 };
 
