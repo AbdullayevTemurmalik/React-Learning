@@ -3,12 +3,11 @@ import "./About.css";
 
 const About = () => {
   return (
-    <section className="about" id="about">
+    <section className="about">
       <h2>About Us</h2>
       <p>
-        MiniShop is a small modern store that focuses on simplicity and design.
-        We bring you high-quality items for your lifestyle — with a minimal and
-        elegant touch.
+        MoonSite is a modern tech store offering the best gadgets at affordable
+        prices.
       </p>
     </section>
   );

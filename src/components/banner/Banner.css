@@ -1,32 +1,30 @@
 .banner {
-  background: linear-gradient(120deg, #6366f1, #8b5cf6);
-  color: #fff;
   text-align: center;
-  padding: 120px 20px;
+  padding: 100px 20px;
+  background: linear-gradient(to right, #1e1e2f, #3a0ca3);
+  color: white;
 }
 
-.banner-content h1 {
+.banner h1 {
   font-size: 48px;
-  font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
-.banner-content p {
+.banner p {
   font-size: 18px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
-.banner-content button {
-  background: #fff;
-  color: #4f46e5;
+.banner button {
+  background: #ffb703;
+  color: #1e1e2f;
   border: none;
   padding: 12px 25px;
   border-radius: 8px;
-  font-weight: 600;
   cursor: pointer;
   transition: 0.3s;
 }
 
-.banner-content button:hover {
-  background: #e0e7ff;
+.banner button:hover {
+  background: #ffd166;
 }

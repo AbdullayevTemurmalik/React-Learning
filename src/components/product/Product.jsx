@@ -1,37 +1,43 @@
 import React from "react";
 import "./Product.css";
 
-const data = [
+const products = [
   {
     id: 1,
-    name: "Smart Watch",
-    price: "$89",
-    img: "https://via.placeholder.com/150",
+    name: "iPhone 15 Pro",
+    price: "$999",
+    img: "https://dummyjson.com/image/i/products/2/1.jpg",
   },
   {
     id: 2,
-    name: "Wireless Headphones",
-    price: "$59",
-    img: "https://via.placeholder.com/150",
+    name: "Samsung Watch",
+    price: "$199",
+    img: "https://dummyjson.com/image/i/products/9/1.jpg",
   },
   {
     id: 3,
-    name: "Smartphone",
-    price: "$499",
-    img: "https://via.placeholder.com/150",
+    name: "MacBook Air",
+    price: "$1299",
+    img: "https://dummyjson.com/image/i/products/6/1.jpg",
+  },
+  {
+    id: 4,
+    name: "Sony Headphones",
+    price: "$299",
+    img: "https://dummyjson.com/image/i/products/10/1.jpg",
   },
 ];
 
 const Product = () => {
   return (
-    <section className="products" id="products">
+    <section className="product-section">
       <h2>Our Products</h2>
       <div className="product-grid">
-        {data.map((item) => (
-          <div key={item.id} className="card">
-            <img src={item.img} alt={item.name} />
-            <h3>{item.name}</h3>
-            <p>{item.price}</p>
+        {products.map((p) => (
+          <div key={p.id} className="product-card">
+            <img src={p.img} alt={p.name} />
+            <h3>{p.name}</h3>
+            <p>{p.price}</p>
             <button>Add to Cart</button>
           </div>
         ))}

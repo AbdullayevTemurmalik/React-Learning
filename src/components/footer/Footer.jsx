@@ -3,8 +3,8 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="footer" id="contact">
-      <p>© 2025 MiniShop — All rights reserved</p>
+    <footer className="footer">
+      <p>© 2025 MoonSite. All rights reserved.</p>
     </footer>
   );
 };

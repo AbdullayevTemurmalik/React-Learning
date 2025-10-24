@@ -1,26 +1,21 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Navbar.css";
 
-const Navbar = () => {
-  const [open, setOpen] = useState(false);
-
+const Navbar = ({ onLogin, onSignup }) => {
   return (
-    <header className="navbar">
-      <div className="container">
-        <h1 className="logo">MiniShop</h1>
-
-        <nav className={open ? "nav-links open" : "nav-links"}>
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#products">Products</a>
-          <a href="#contact">Contact</a>
-        </nav>
-
-        <button className="menu-btn" onClick={() => setOpen(!open)}>
-          {open ? "✖" : "☰"}
-        </button>
+    <nav className="navbar">
+      <h1 className="logo">MoonSite</h1>
+      <ul className="nav-links">
+        <li>Home</li>
+        <li>About</li>
+        <li>Products</li>
+        <li>Contact</li>
+      </ul>
+      <div className="nav-buttons">
+        <button onClick={onLogin}>Login</button>
+        <button onClick={onSignup}>Sign Up</button>
       </div>
-    </header>
+    </nav>
   );
 };
 

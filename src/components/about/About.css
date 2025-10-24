@@ -1,17 +1,16 @@
 .about {
   text-align: center;
   padding: 80px 20px;
+  background: #f8f9fa;
 }
 
 .about h2 {
-  font-size: 32px;
-  color: #4f46e5;
-  margin-bottom: 20px;
+  color: #3a0ca3;
+  margin-bottom: 10px;
 }
 
 .about p {
+  color: #444;
   max-width: 600px;
   margin: 0 auto;
-  color: #555;
-  line-height: 1.6;
 }
