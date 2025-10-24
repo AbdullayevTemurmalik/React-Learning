@@ -1,0 +1,32 @@
+.banner {
+  background: linear-gradient(120deg, #6366f1, #8b5cf6);
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.banner-content h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.banner-content p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.banner-content button {
+  background: #fff;
+  color: #4f46e5;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.banner-content button:hover {
+  background: #e0e7ff;
+}
